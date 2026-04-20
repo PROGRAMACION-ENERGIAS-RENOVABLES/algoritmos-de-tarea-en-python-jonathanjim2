@@ -1,0 +1,10 @@
+# Cálculo de la energía según E = m * c^2
+def calcular_energia(masa):
+    c = 3 * 10**8  # velocidad de la luz en m/s
+    energia = masa * (c ** 2)
+    return energia
+
+# Ejemplo de uso
+masa = float(input("Ingresa la masa (kg): "))
+E = calcular_energia(masa)
+print(f"La energía es: {E} Joules")
