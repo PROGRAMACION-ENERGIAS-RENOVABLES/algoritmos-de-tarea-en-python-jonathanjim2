@@ -1,0 +1,10 @@
+# Cálculo del trabajo según W = F * d
+def calcular_trabajo(fuerza, distancia):
+    trabajo = fuerza * distancia
+    return trabajo
+
+# Ejemplo de uso
+fuerza = float(input("Ingresa la fuerza (N): "))
+distancia = float(input("Ingresa la distancia (m): "))
+W = calcular_trabajo(fuerza, distancia)
+print(f"El trabajo es: {W} Joules")
